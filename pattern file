@@ -138,5 +138,39 @@ for i in range(1, ro + 1):
     sp -= 1
     sp2 -= 2
     print()
+    
+    
+# github is for developers
+# github is for developer
+#github is for develope
+#github is for develop
+#github is for develo
+#github is for devel
+#github is for deve
+#github is for dev
+#github is for de
+#github is for d
+#github is for 
+#github is for
+#github is fo
+#github is f
+#github is 
+#github is
+#github i
+#github 
+#github
+#githu
+#gith
+#git
+#gi
+#g
+###########################################################
+#to print the following pattern
+st = "github is for developers " # it may value of string type
+le = len(st)
+for i in range(le - 1, 0, -1):
+    for k in range(0, i):
+        print(st[k], end="")
+    print()
 
 
