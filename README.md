@@ -138,3 +138,5 @@ for i in range(1, ro + 1):
     sp -= 1
     sp2 -= 2
     print()
+
+
