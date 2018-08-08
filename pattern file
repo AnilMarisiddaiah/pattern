@@ -167,8 +167,22 @@ for i in range(1, ro + 1):
 st = "github is for developers " # it may value of string type
 le = len(st)
 for i in range(le - 1, 0, -1):
-    for k in range(0, i):
-        print(st[k], end="")
+    print(st[0:i])
+
+###############################################################
+   1
+  12
+ 123
+1234
+//////// code is below
+k = 4   # here the k value depends on the number of rows to be printed
+sp = k - 1
+l = 1
+for i in range(0, k):
+    for k in range(0, sp):
+        print(" ", end="")
+    for j in range(0, l):
+        print(j+1, end="")
+    sp = sp - 1
+    l = l + 1
     print()
-
-
